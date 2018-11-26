@@ -18,8 +18,8 @@ $ingeniero->setEspecialidad("Sistemas Computacionales");
 $ingeniero->setalmAMater("Universidad de Sonsonate");
 
 //Peticiones
-echo "Edad: ".$ingeniero->getNombre()."<br>";
-echo "Mombre: ".$ingeniero->getedad()."<br>";
+echo "Nombre: ".$ingeniero->getNombre()."<br>";
+echo "Edad: ".$ingeniero->getedad()."<br>";
 echo "Especialidad: ".$ingeniero->getEspecialidad()."<br>";
 echo "Alma Mater: ".$ingeniero->getAlmaMater()."<br>";
 

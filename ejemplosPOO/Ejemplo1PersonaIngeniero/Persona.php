@@ -6,9 +6,9 @@
  */
 abstract class Persona {
     //atributos
-    public $nombre;
-    public $genero;
-    public $edad;
+    private $nombre;
+    private $genero;
+    private $edad;
     
     //metodos
     public function setNombre($nombre){//Asignar valos
